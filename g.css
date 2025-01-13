@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "lora-regular", serif;
+    overflow-x: hidden;
+    line-height: 1.765;
+    font-size: 1.7rem;
+}
+.btint{
+    background-color: rgba(5,0,0,.6);
+  background-blend-mode: multiply;
+}
+#one{
+    background-size: cover;
+    background-image: url(media/hero-bg.jpg.webp);
+    zoom: 1;
+padding: 30px;
+width: 100%;
+height: 100%;
+}
+.theme{
+    color: #39b54a;;
+}
+.off{
+    color: aliceblue;
+    font-size: 25px;
+}
+.theme:hover{
+    color: aliceblue;
+    transition: .3s ease;
+}
+.icons{
+    padding: 5px;
+    color: gray;
+}
+.icons:hover{
+    color: aliceblue;
+    transition:all 0.5s ease ;
+    
+}
+.icons2{
+    padding: 5px;
+}
+.icons2:hover{
+color: #39b54a;
+transition:all 0.5s ease ;
+}
+.h li:hover span {
+    opacity: 1;
+    visibility: visible;
+    transition: .3s ease;
+    transform: scale(1);
+}
+.h span{
+    visibility: hidden;
+}
+.two{
+    width: 100%;
+    height: 100%;
+    background-color:  #39b54a;
+    }
+    li{
+        list-style: none;
+    }
+    span{
+        text-decoration: none;
+    }
+    .stats{
+        font-family: "montserrat-bold", sans-serif;
+        font-weight: 700;
+        font-size: 5rem;
+        line-height: 1;
+        color: #FFFFFF;
+        position: relative;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    #three{
+        width: 100%;
+        height: 100%;
+        background-color:  whitesmoke;
+        }
+        .t{
+            margin-left: 50px;
+        }
+        .threeicon{
+            color: #39b54a;
+        }
+        .four{
+            height: 100%;
+            width:100%;
+            background-color: #FFFFFF;
+        }
+        .four1{
+            height: 100%;
+            width:100%;
+            display: block;
+            background-color: #111111;
+        }
+        .imgsection{
+            margin-top:-13rem;
+            width: 1160px;
+        }
+        .section{
+            column-count: 2;
+            columns: 400px;
+        }
+        .overlay{
+            position: relative;
+            display: block;
+        }
+        .over{
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                height: 100%;
+                width: 100%;
+                transition:all .5s ease-in-out;
+                opacity: 0;
+            background-color: rgba(5,0,0,.7);
+            background-blend-mode: multiply;
+            
+          }
+          .overlay:hover .over {
+            opacity: 1;
+          }
+          .plus {
+            color: white;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+          }
+          .zoom-img {
+            overflow: hidden;
+          }
+          
+          .zoom-img  img {
+            transition: all .3s ease-in-out;
+            object-fit: cover;
+            
+          }
+          
+          .zoom-img img:hover   {
+            transform: scale(1.2);
+          }
+          .five{
+            height: 100%;
+            width:100%;
+            background-color: #e6e6e6;
+            color: #757575;
+        }
+        .owl {
+            position: relative;
+            overflow: hidden;
+            display: block;
+            
+        }
+        .zoom{
+            
+            opacity: .55;
+            width: 120px;
+        }
+        .zoom:hover{
+            opacity: 100;
+            transition:.5s ease-in-out;
+        }
+        .six{
+            height: 100%;
+            width:100%;
+           background-color:  rgba(91, 90, 90, 0.7);
+           background-blend-mode: multiply;
+                background-image: url(media/bg.webp);
+                background-repeat: no-repeat;
+                background-position: center, center;
+                color: rgba(255, 255, 255, 0.5);
+                position: relative;
+            
+        }
+        .f{
+            width: 65%;
+            float: left;
+            padding: 0 5rem;
+        }
+        .h6 {
+            
+            line-height: 1.385;
+            text-transform: uppercase;
+            letter-spacing: .16rem;
+        }
+        .s-contact .form-field label {
+            font-family: "montserrat-light", sans-serif;
+            font-size: 1rem;
+            line-height: 2.4rem;
+            position: absolute;
+            bottom: -0.3rem;
+            right: .6rem;
+            text-transform: uppercase;
+            letter-spacing: .1rem;
+            padding: 0 2rem;
+            margin: 0;
+            color: #FFFFFF;
+            background: #39b54a;
+        }
+        .last{
+            height: 100%;
+            width:100%;
+            background-color: #111111;
+            color: #757575;
+        }
+        .header-menu-toggle {
+            position: fixed;
+            right: 5px;
+            top: 24px;
+            height: 35px;
+            width: 100px;
+            line-height: 42px;
+            font-family: "montserrat-medium", sans-serif;
+            font-size: 1rem;
+            text-transform: uppercase;
+            letter-spacing: .1rem;
+            color: #39b54a;
+            transition: all 0.5s ease-in-out;
+        }
+        .header-menu-text {
+            display: block;
+            position: absolute;
+            top: 0;
+            left: -20px;
+            width: 100px;
+            padding-left: 12px;
+            text-decoration: none;
+            font-size: 10px;
+        }
+        .header-menu-icon {
+            display: block;
+            width: 22px;
+            height: 2px;
+            margin-top: -1px;
+            position: absolute;
+            left: 55px;
+            top: 20%;
+            right: auto;
+            bottom: auto;
+            transition: all 0.5s ease-in-out;
+        }
+        .navbtn-scrolled{
+            background-color: #111111;
+            box-shadow: 0 3px 10px rgba(0, 0,0, 0.15);
+        }
+        .navbtn{
+            transition: all 0.5s ease-in-out;
+        }
+        .down{
+            text-decoration: none;
+            text-transform: uppercase;
+            color: #e6e6e6;
+            display: flex;
+            float: right;
+            font-size: 10px;
+        }
+        .btn{
+            transition: all 2s ease-in-out;
+        }
+        
+        
